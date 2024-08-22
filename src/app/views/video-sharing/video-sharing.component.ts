@@ -41,8 +41,8 @@ export class VideoSharingComponent {
     this.videoService.clearRecording();
     if (this.video) {
       this.video.srcObject = null;
-      this.state = 'none';
     }
+    this.state = 'none';
   }
 
   private start() {
