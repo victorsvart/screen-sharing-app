@@ -1,0 +1,11 @@
+<div>
+    <div>Streaming</div>
+    <div>
+        <button *ngIf="state == 'none'" (click)="startRecording()">start streaming</button>
+        <button *ngIf="state == 'recording'" (click)="stopRecording()">stop streaming</button>
+        <button *ngIf="state == 'stopped'" (click)="clearRecording()">clear streamfile</button>
+    </div>
+    <video #videoElement  width="600" class="video-container" controls autoplay playsInline>
+        <source />
+    </video>
+</div>

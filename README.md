@@ -1,11 +1,13 @@
-# ScreenStreamingAngular
+# ScreenStreamingAngular | [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+Project for screen sharing utilizing the [RecordRTC](github.com/muaz-khan/RecordRTC) node package. 
+Very early build. Work in progress.
 
-## Development server
+## Set up a local build
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+For a local dev server, run npm install or yarn, then npm start (or set up a custom command in package.json), navigate to `http://localhost:4200/` and have fun.
 
+## ANGULAR DEFAULT DOCUMENTATION
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
